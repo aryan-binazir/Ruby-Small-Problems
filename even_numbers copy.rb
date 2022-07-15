@@ -1,0 +1,1 @@
+(1..99).each { |counter| puts counter if counter.even? }

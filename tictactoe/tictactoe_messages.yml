@@ -1,0 +1,13 @@
+# messages for tictactoe 
+
+invalid_choice: "Sorry, that's not a valid choice."
+thanks_for_playing: "Thanks for playing Tic Tac Toe! Good bye!"
+welcome: "TicTacToe!\nGet 3 Xs in a row on the board to win! \nFirst to win 5 rounds is the champion!\nYou are X. Computer is O.\n\n"
+player_wins: "\n\n######################\n\nYOU ARE THE CHAMPION!!\n\n######################"
+computer_wins: "\n\nYou lose :("
+play_again: "Play again? (y or n)"
+try_again: "That is not a valid selection, please trying again!"
+tie: "It's a tie!"
+play_first: "Who would you like to go first? Select: \n1 for Player\n2 for Computer\n3 for Random\n"
+Computer: "The Computer won this round!"
+Player: "You won this round!"

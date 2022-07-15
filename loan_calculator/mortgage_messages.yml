@@ -1,0 +1,13 @@
+#messages for mortgage calculator
+
+welcome: "Welcome to Loan Payment Calculator!\n\n"
+loan_amount: "Please enter your total loan amount: "
+invalid_loan: "That is an invalid loan amount, please try again!"
+APR: "Please enter your Annual Percentage Rate (e.g. use 5 for 5%): "
+invalid_apr: "APR must be between 0% and 100%: "
+duration: "Enter the duration of the loan in years: "
+invalid_years: "Loan duration must be in years: "
+monthly_payment: "Your monthly payment is $"
+another_loan: "Want to calculate another loan? Type Y/N: "
+invalid_choice: "Invalid choice, please choose Y/N"
+goodbye: "\nGoodbye!"

@@ -1,0 +1,6 @@
+<!doctype html>
+<div>
+  <% @users.keys.each do |name| %>
+    <a href="/user/<%= name %>"><p><b><%= name.capitalize %></b></p></a>
+  <% end %>
+</div>

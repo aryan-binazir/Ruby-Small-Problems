@@ -1,0 +1,11 @@
+source 'https://rubygems.org'
+
+ruby '2.7.5'
+
+gem 'minitest', '~> 5.14.4'
+gem 'minitest-reporters', '~> 1.4.3'
+gem 'rubocop', '~> 0.86.0'
+gem 'stamp', '~> 0.6.0'
+gem 'rake'
+
+gemspec

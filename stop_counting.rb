@@ -1,0 +1,1 @@
+5.times { |index| index == 2? (break puts index) : (puts index) }

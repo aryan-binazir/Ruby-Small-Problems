@@ -1,0 +1,17 @@
+#Calculator Messages
+
+en:
+  welcome: "Welcome to Calculator! Enter your name:"
+  valid_name: "Make sure to enter a valid name."
+  first_number: "What's the first number?"
+  second_number: "What's the second number?"
+  not_right: "Hmm.. That doesn't look like a valid number"
+  must_include: 'Must include 1, 2, 3 or 4'
+  calculate_again: "Do you want to perform another calculation (Y to calculate again)"
+  operation_call: "the two numbers"
+  result: "The result is"
+  end: "Thank you for using Calculator!"
+
+es:
+  welcome: "Bienvenido a la calculadora! Entre su nombre:"
+  valid_name: "Asegúrese de entrar un nombre válido."

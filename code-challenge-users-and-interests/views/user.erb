@@ -1,0 +1,12 @@
+<!doctype html>
+<body>
+  <p><b>Name:</b> <%= @name.to_s.capitalize %></p>
+  <p><b>Email:</b> <%= @email.to_s %></p>
+  <% interests = @interests.map { |interest| interest.capitalize } %>
+  <p><b>Interests:</b> <%= interests.join(", ") %>. </p>
+
+  <% @users.keys.each do |user| %>
+    <% next if user.to_s == @name.to_s %>
+    <a href="/user/<%= user %>"><%= user.capitalize%></a><br>
+  <% end %>
+</body>
